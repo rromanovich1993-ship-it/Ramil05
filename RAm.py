@@ -1,3 +1,5 @@
-name_user = "Ramil"
-print(name_user)
-55
+name = 41
+
+print(41)
+print(id(name))
+print(id(41))
