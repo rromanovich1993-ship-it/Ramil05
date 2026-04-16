@@ -1,5 +1,6 @@
-name = 41
-
-print(41)
-print(id(name))
-print(id(41))
+#Списки чисел
+numbers = [1,2,3,4,5,6,7,8,9]
+print(numbers)
+#Списки строк
+cars = ["мерседес", "бмв", "ауди"]
+print(cars)
