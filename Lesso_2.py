@@ -1,28 +1,24 @@
-# # СТРОКИ
-# text = " Hello  World"
-# print(text)
-# # инденксы
-# text_1 = "Python"
-# # result = text_1[-1]
-# # print(result)
-# # срезы
-# result_1 = text_1[2:6:1]
-# print(result_1)
-# # Полидром
-# text_2 = "Python"
-# result_2 = text_2[::-1]
-# print(result_2)
-# Срезы
-# price = "777 топоры"
-# result = price[:3]
+# # Домашние задание
+# city = "Saratov"
+# print(city)
+# text = "Python"
+# result = text[:6:5]
 # print(result)
-# Конкотанация
-# item_price = "BMW"
-# item_zena = "600$"
-# result = f" Я купил {item_price} за {item_zena}"
+# word = "программирование"
+# result = word[:5]
+# result2 = word[2:7]
 # print(result)
-# text_3 = "прокачка питона"
-# result_3 = text_3.replace("прокачка", "осиление")
-text_4 = "Python QAQ rules"
-assert  "QQ" in text_4, "HERNYA"
-
+# print(result2)
+# message = "Hello, World!"
+# print(len(message))
+# first = "Python"
+# second = "автоматизация"
+# result = f"{first}     {second}"
+# print(result)
+text = "  привет МИР!  "
+result = text.strip()
+result_1 = text.lower()
+result_2 = text.replace("!", ".")
+print(result)
+print(result_1)
+print(result_2)
