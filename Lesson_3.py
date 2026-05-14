@@ -18,4 +18,4 @@
 # list2 = [4, 5, 6]
 # result = list1.extend(list2)
 # print(list1)
-# print(list2)
+# print(list2)аап
