@@ -1,8 +1,21 @@
-# Условные операторы
-# age = int(input("Ведите число "))
-# dol_1 = str(input("Ведите профессию"))
-# if age >= 18 or dol_1 == "студент":
-#     print("Ты крут")
-number = int(input("Enter a number: "))
-result = "четное" if number % 2 == 0 else "нечетное"
-print(result)
+# Словари
+homan = [
+ {
+    "name": "Alex",
+    "age": 41,
+    "list_of_item": ["it", "msi", "usa"]
+},
+ {
+    "name": "Alex",
+    "age": 45,
+    "list_of_item": ["it", "msi", "usa"]
+},
+ {
+    "name": "Alex",
+    "age": 46,
+    "list_of_item": ["it", "msi", "usa"]
+}
+    ]
+print(homan[2]["age"])
+
+
