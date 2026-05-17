@@ -1,6 +1,9 @@
-# Файлы
-with open("message","r",encoding="utf-8") as file:
-    file_content=file.read()
-    print(file_content)
+ООП первая часть
+class Book:
+   GENRETION = "Детектив"
 
-file.write("fsdfdsda")
+   def __init__(self, page):
+       self.page = page
+
+my_book = Book(page=777)
+print(my_book.page)
