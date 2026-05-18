@@ -1,4 +1,4 @@
-ООП первая часть
+# ООП первая часть
 class Book:
    GENRETION = "Детектив"
 
@@ -6,4 +6,5 @@ class Book:
        self.page = page
 
 my_book = Book(page=777)
+print(my_book.page)
 print(my_book.page)
